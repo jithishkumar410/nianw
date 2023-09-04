@@ -1,0 +1,241 @@
+:root{
+  --subtitle-m-font-family: "Roboto-Medium", Helvetica;
+}
+body{
+ font-style: var(--subtitle-m-font-family);
+}
+html{
+  scroll-behavior: smooth;
+}
+html,body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+*{
+  font-family: 'Inter', sans-serif;
+}
+
+/*nav bar*/
+
+.nav-link{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+
+.navbar-nav{
+  gap: 3rem;
+  
+  
+}
+
+.wordmark-logo{
+  height: 50px;
+  margin-left: 2.5rem;
+}
+.nav-link{
+  text-decoration: none;
+}
+nav{
+  position: fixed;
+  border-bottom: solid 1px rgb(0, 0, 0,0.3);
+  text-align: center;
+  background-color: white;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: 1;
+  
+  
+
+  
+}
+
+.nav-item{
+  text-align: center;
+  transition-duration: 1ms;
+  border-radius: 6px;
+  padding: 0.1;
+  
+}
+
+.nav-item:hover{
+   background-color:rgb(255, 211, 33);
+   
+   
+
+}
+
+
+
+.frame1{
+  margin: 5rem;
+  margin-top: 10rem;
+  
+  
+
+}
+
+
+.vector{
+  width: 200px;
+ 
+}
+.vectorp{
+  width: 270px;
+ 
+}
+.f1h{
+  text-align: center;
+  
+  
+
+}
+.div1{
+   margin: 1.5rem;
+   
+  text-align: justify;
+  margin-bottom: 2rem;
+  
+}
+.f2h,.ech,.oph,.pssh,.perh{
+  display: flex;
+  flex-direction: column;
+ 
+  margin: 3rem;
+  margin-top: 6rem;
+  margin-left: 5rem;
+  margin-bottom: 3rem;
+}
+
+
+.cpc,.eotc,.opc,.pssc,.perc{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content:center;
+}
+.card-img-top{
+  height: 200px;
+  border-bottom: solid 2px rgb(0, 0, 0,0.7);
+
+}
+#f1{
+  margin-top: 7rem;
+}
+.card-text{
+  font-weight: 500;
+}
+
+.card-title{
+  font-weight: 700;
+}
+.im{
+  border-radius: 8px;
+
+  
+}
+
+#im {
+  
+height: 300px;
+
+
+ 
+}
+/* footer */
+#ndc{
+  height: 50px;
+  width: 150px;
+}
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+
+ 
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+ 
+  bottom: 0;
+ 
+ padding-bottom: 0.3rem;
+}
+.bt{
+  border-top: solid 2px rgb(0, 0, 0,0.7) ;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+
+.im {
+  display: flex;
+  padding-left: 30%;
+  width: 90%;
+  padding-right: 20%;
+  
+  height: 280px; 
+  
+  
+}
+.footer{
+  padding-bottom: 1.5rem;
+}
+.group-2{
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.text-wrapper{
+  font-family: "Coolvetica-Regular", Helvetica;
+  font-weight: 600;
+  color: #170c5b;
+}
+.p,.powered-by{
+  font-weight: 600;
+}
+#sen{
+  height: 40px
+}
+
+@media screen and (max-width:740px ) {
+  .div1{
+    margin-top: 1.5rem;
+   text-align: justify;
+ }
+ .frame1{
+  margin: 0rem;
+  margin-top: 8rem;
+  margin-bottom: 5.5rem;
+  
+}
+.im {
+  display: flex;
+  padding-left: 15%;
+  padding-right: 10%;
+  width: 100%;
+  height: 280px; 
+  
+  
+}
+#im{
+  height: 200px;
+
+}
+.f2h,.ech,.oph,.pssh,.perh{
+  margin-left: 3rem;
+}
+.wordmark-logo{
+  margin-left: 1rem;
+ }
+ .navbar-nav{
+  margin-top: 0.5rem;
+  gap: 1rem;
+  
+}
+
+}

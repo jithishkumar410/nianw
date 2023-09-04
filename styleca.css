@@ -1,0 +1,207 @@
+
+/*nav bar*/
+
+.nav-link{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+.navbar-nav{
+  gap: 3rem;
+  
+}
+
+.wordmark-logo{
+  height: 50px;
+  margin-left: 2.5rem;
+}
+nav{
+  position: fixed;
+  border-bottom: solid 1px rgb(0, 0, 0,0.3);
+  text-align: center;
+  background-color: white;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  
+}
+
+.nav-item{
+ 
+  transition-duration: 1ms;
+  border-radius: 6px;
+  padding: 0.1;
+  
+}
+
+.nav-item:hover{
+   background-color:rgb(255, 211, 33);
+   
+   
+
+}
+
+/* career */
+
+.frame{
+   margin:3rem;
+   text-align: center;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   margin-top: 8rem;
+}
+.he1{
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+.he2{
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.we-offer-summer{
+  text-align: justify;
+}
+
+
+/* hot */
+
+/*hu*/
+
+.hot{
+  margin-top: 7rem;
+}
+.let,.let1{
+   display: flex;
+   gap: 1.5rem;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+
+.hu,.ons{
+  display: flex;
+  margin: 1rem;
+  gap: 2rem;
+}
+
+
+.ons{
+  margin-top: 7rem;
+}
+
+.frame1{
+  margin: 5rem;
+  margin-top: 7rem;
+  text-align: center;
+  
+}
+.hu,.ons{
+  display: flex;
+}
+.ph1,.ph2{
+  flex:50%
+}
+.let,.let1{
+  flex:50%
+}
+
+.tr{
+  font-weight: bold;
+}
+.b1{
+  margin-top: 2rem;
+}
+.ab{
+  text-decoration: none;
+  color: black;
+  border-radius: 3px;
+  background-color: rgba(239, 191, 7, 1);
+  padding: 0.75rem;
+  font-weight: 400;
+  text-align: center;
+}
+.ab:hover{
+  background-color: black;
+  color: rgba(239, 191, 7, 1);
+}
+
+
+
+
+/* footer style */
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+
+ 
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+
+ 
+}
+#ndc{
+  height: 50px;
+  width: 150px;
+}
+
+#sen{
+  height: 35px
+}
+.bt{
+  border-top: solid 2px rgb(0, 0, 0,0.7) ;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.group-2{
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.text-wrapper{
+  font-family: "Coolvetica-Regular", Helvetica;
+  font-weight: 600;
+  color: #170c5b;
+}
+.p,.powered-by{
+  font-weight: 600;
+}
+
+@media screen and (max-width:840px ) {
+  
+ .frame,.frame1{
+  margin: 1.5rem;
+ }
+ .frame{
+  margin-top: 6rem;
+ }
+ .frame1{
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+ }
+ .hu{
+
+  flex-wrap: wrap;
+
+ }
+ .ons{
+  flex-wrap: wrap-reverse;
+ }
+ 
+ .wordmark-logo{
+  margin-left: 1rem;
+ }
+ .navbar-nav{
+  margin-top: 0.5rem;
+  gap: 1rem;
+  
+}
+.p2,.p1{
+  text-align: justify;
+}
+}
